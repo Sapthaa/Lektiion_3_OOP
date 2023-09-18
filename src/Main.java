@@ -36,8 +36,7 @@ public class Main {
         System.out.println(sum);
 
         //sum2 = addition2(15,15); // this does not return
-
-        addition2(15, 15);
+        
 
         /* How to create a method
          *  #1 visibility modifier, public, protected, no mod, private
@@ -45,7 +44,7 @@ public class Main {
          *  #3 datatype to return, send data. if nothing == void
          *  #4 name - camelcase (addTwoNumbers) - followed by () {}*/
 
-
+        System.out.println("Is this the first commit?");
 
     }
 
@@ -58,6 +57,8 @@ public class Main {
     // void - kan ej arbetas vidare / visas bara upp
     public static void addition2(int x, int y) {
         System.out.println(x + y);
+
+
 
     }
 
